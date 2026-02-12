@@ -11,7 +11,13 @@
     "lint:fix": "eslint . --fix",
     "lint:stylelint": "stylelint --cache --fix **/*.{vue,less,postcss,css,scss} --cache --cache-location node_modules/.cache/stylelint/",
     "lint:lint-staged": "lint-staged",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commit": "git add -A && git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
   },
   "keywords": [],
   "author": "aaron min <278329474@qq.com>",
@@ -28,6 +34,7 @@
     "@typescript-eslint/parser": "^8.55.0",
     "commitizen": "^4.3.1",
     "cz-conventional-changelog": "^3.3.0",
+    "cz-git": "^1.12.0",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
