@@ -1,0 +1,30 @@
+{
+  "name": "js-template-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint:prettier": "prettier --write src/**/*.{js,ts,mjs,cjs,json,tsx,css,less,scss,vue,html,md}",
+    "lint:eslint": "eslint --fix --ext .js,.ts,.vue ./src",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "keywords": [],
+  "author": "aaron min <278329474@qq.com>",
+  "license": "MIT",
+  "packageManager": "pnpm@10.24.0",
+  "devDependencies": {
+    "@antfu/eslint-config": "^7.4.3",
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.8.0",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "eslint-plugin-vue": "^10.7.0",
+    "globals": "^17.3.0",
+    "parser": "link:eslint-plugin-vue @typescript-eslint/eslint-plugin @typescript-eslint/parser",
+    "prettier": "^3.8.1",
+    "typescript-eslint": "^8.55.0"
+  }
+}
