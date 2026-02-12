@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "lint:prettier": "prettier --write src/**/*.{js,ts,mjs,cjs,json,tsx,css,less,scss,vue,html,md}",
-    "lint:eslint": "eslint --fix --ext .js,.ts,.vue ./src",
+    "lint:eslint": "eslint --fix --ext .cjs,.mjs,.js,.ts,.vue ./src",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "lint:stylelint": "stylelint --cache --fix **/*.{vue,less,postcss,css,scss} --cache --cache-location node_modules/.cache/stylelint/",

@@ -18,8 +18,6 @@ export default antfu({
   // `.eslintignore` is no longer supported in Flat config, use `ignores` instead
   ignores: [
     '**/fixtures',
-    'index.js',
-    'src/index.ts',
     'dist/**/*',
     '.history/**/*',
     // ...globs

@@ -1,6 +1,6 @@
 import eslint from '@eslint/js'
-import stylistic from '@stylistic/eslint-plugin'
-import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
+import stylistic from '@stylistic/eslint-plugin'
+import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
 import eslintPluginVue from 'eslint-plugin-vue'
 import globals from 'globals'
 import tseslint from 'typescript-eslint'
@@ -47,7 +47,7 @@ export default tseslint.config(
   {
     files: ['**/*.{js,mjs,cjs,vue}'],
     rules: {
-      'no-console': 'warn',
+      'no-console': 'warn',
     },
   },
   // 配置全局变量

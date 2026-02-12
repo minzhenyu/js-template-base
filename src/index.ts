@@ -3,7 +3,7 @@ test();
 
 function test() {
   const _a = 1;
-  console.warn(111);
+  console.warn(111222);
   // alert('hello')
 }
 
